@@ -1,0 +1,102 @@
+/* Add your CSS styles here */
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Authentication container styles */
+#auth-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Add this line for responsiveness */
+}
+
+#auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 300px; /* Adjust the max-width as needed */
+    width: 100%; /* Add this line for responsiveness */
+}
+
+#auth-container input[type="text"],
+#auth-container input[type="password"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#auth-container button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Logout button styles */
+#logout-button {
+    background-color: red;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+/* Task list styles */
+#task-form-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#task-input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#add-task-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.task-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.task-actions button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo List App</title>
+</head>
+<body>
+    <header>
+        <h1>Todo List</h1>
+        <!-- Add user authentication elements here -->
+        <div id="auth-container">
+            <!-- Signup form -->
+            <form id="signup-form">
+                <input type="text" id="signup-username" placeholder="Username">
+                <input type="password" id="signup-password" placeholder="Password">
+                <button type="submit">Sign Up</button>
+            </form>
+            <!-- Login form -->
+            <form id="login-form">
+                <input type="text" id="login-username" placeholder="Username">
+                <input type="password" id="login-password" placeholder="Password">
+                <button type="submit">Log In</button>
+            </form>
+            <!-- Logout button -->
+            <button id="logout-button" style="display: none;">Log Out</button>
+        </div>
+    </header>
+    <main>
+        <section id="todo-container">
+            <!-- Add task management elements here -->
+            <div id="task-form-container">
+                <input type="text" id="task-input" placeholder="Add a new task">
+                <button id="add-task-button">Add Task</button>
+            </div>
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
